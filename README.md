@@ -1,9 +1,14 @@
 PagerDutyAPI
 ============
 
-List the 10 most recently resolved incidents in desc order
+List the 10 most recently resolved incidents in desc order.
 
+Jars Needed:
 
+java-json.jar
+junit.jar
+
+Description:
 GetIncidents class is used to lists the timestamp and incident numbers of last 10 resolved issue
 It makes a call to Pager Duty Incident Api to get the timestamp
 
